@@ -14,13 +14,13 @@
 		67D712D319B6CF9E00C52CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D712D219B6CF9E00C52CCC /* main.m */; };
 		67D712D719B6CF9E00C52CCC /* UIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D712D619B6CF9E00C52CCC /* UIAppDelegate.m */; };
 		67D712DA19B6CF9E00C52CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D712D819B6CF9E00C52CCC /* Main.storyboard */; };
-		67D712DD19B6CF9E00C52CCC /* UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D712DC19B6CF9E00C52CCC /* UIViewController.m */; };
 		67D712DF19B6CF9E00C52CCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D712DE19B6CF9E00C52CCC /* Images.xcassets */; };
 		67D712E619B6CF9E00C52CCC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D712E519B6CF9E00C52CCC /* XCTest.framework */; };
 		67D712E719B6CF9E00C52CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D712C619B6CF9E00C52CCC /* Foundation.framework */; };
 		67D712E819B6CF9E00C52CCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D712CA19B6CF9E00C52CCC /* UIKit.framework */; };
 		67D712F019B6CF9E00C52CCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67D712EE19B6CF9E00C52CCC /* InfoPlist.strings */; };
 		67D712F219B6CF9E00C52CCC /* UITableView_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D712F119B6CF9E00C52CCC /* UITableView_ChallengeTests.m */; };
+		67D7130019B6D47100C52CCC /* UITableViewControllerPersonal.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D712FF19B6D47100C52CCC /* UITableViewControllerPersonal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		67D712D519B6CF9E00C52CCC /* UIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAppDelegate.h; sourceTree = "<group>"; };
 		67D712D619B6CF9E00C52CCC /* UIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAppDelegate.m; sourceTree = "<group>"; };
 		67D712D919B6CF9E00C52CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		67D712DB19B6CF9E00C52CCC /* UIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewController.h; sourceTree = "<group>"; };
-		67D712DC19B6CF9E00C52CCC /* UIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewController.m; sourceTree = "<group>"; };
 		67D712DE19B6CF9E00C52CCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		67D712E419B6CF9E00C52CCC /* UITableView ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D712E519B6CF9E00C52CCC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		67D712ED19B6CF9E00C52CCC /* UITableView ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		67D712EF19B6CF9E00C52CCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67D712F119B6CF9E00C52CCC /* UITableView_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_ChallengeTests.m; sourceTree = "<group>"; };
+		67D712FE19B6D47100C52CCC /* UITableViewControllerPersonal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewControllerPersonal.h; sourceTree = "<group>"; };
+		67D712FF19B6D47100C52CCC /* UITableViewControllerPersonal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerPersonal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				67D712D519B6CF9E00C52CCC /* UIAppDelegate.h */,
 				67D712D619B6CF9E00C52CCC /* UIAppDelegate.m */,
 				67D712D819B6CF9E00C52CCC /* Main.storyboard */,
-				67D712DB19B6CF9E00C52CCC /* UIViewController.h */,
-				67D712DC19B6CF9E00C52CCC /* UIViewController.m */,
+				67D712FE19B6D47100C52CCC /* UITableViewControllerPersonal.h */,
+				67D712FF19B6D47100C52CCC /* UITableViewControllerPersonal.m */,
 				67D712DE19B6CF9E00C52CCC /* Images.xcassets */,
 				67D712CD19B6CF9E00C52CCC /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			files = (
 				67D712D719B6CF9E00C52CCC /* UIAppDelegate.m in Sources */,
 				67D712D319B6CF9E00C52CCC /* main.m in Sources */,
-				67D712DD19B6CF9E00C52CCC /* UIViewController.m in Sources */,
+				67D7130019B6D47100C52CCC /* UITableViewControllerPersonal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
